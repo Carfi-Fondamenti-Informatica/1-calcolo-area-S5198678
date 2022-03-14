@@ -4,12 +4,10 @@ using namespace std;
 int main() {
     int a,b,c;
     float areaR,areaT1,areaS,areaT2;
+      cin >> a; cin >> b;  cin >> c;
     cout << "Inserire il valore di a"<<endl;
-    cin >> a;
     cout << "Inserire il valore di b"<<endl;
-    cin >> b;
     cout << "Inserire il valore di c"<<endl;
-    cin >> c;
     areaR = (float) (a*b);
     areaT1 = (float) (a*b)/2;
     areaS = (float) (a^2);
