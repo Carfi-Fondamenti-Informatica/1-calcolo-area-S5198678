@@ -1,28 +1,19 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     float a,b,c;
-    float areaR,areaT1,areaS,areaT2;
-    cout << "Inserire il valore di a"<<endl;
-    cin >> a;
-    cout << "Inserire il valore di b"<<endl;
-    cin >> b;
-    cout << "Inserire il valore di c"<<endl;
-    cin >> c;
-    areaR = (float) (a*b);
-    areaT1 = (float) (a*b)/2;
-    areaS = (float) (a*a);
-    areaT2 = (float) (0.5*(a+b)*c);
+    float triangle,square,rectangle,trapezoid;
 
-    cout << "il valore di a è : "<< a <<endl;
-    cout << "il valore di b è : "<< b <<endl;
-    cout << "il valore di c è : "<< c <<endl;
+    cin >> a >> b >> c ;
 
-    cout << "area di rettangolo  "<< areaR<<endl;
-    cout << "area di triangolo  "<< areaT1 <<endl;
-    cout << "area di quadrato  "<< areaS <<endl;
-    cout << "area di trapezio  "<< areaT2 <<endl;
-
+    triangle = 0,5 * a * b;
+    square = a*a;
+    rectangle = a*b;
+    trapezoid = 0,5 * (a+b) * c;
+    
+    cout << triangle << endl;
+    cout << square << endl;
+    cout << rectangle << endl;
+    cout << trapezoid << endl;
+    
     return 0;
-}
