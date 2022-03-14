@@ -13,7 +13,7 @@ int main() {
     areaR = (float) (a*b);
     areaT1 = (float) (a*b)/2;
     areaS = (float) (a^2);
-    areaT2 = (float) (((a+b)*c)/2);
+    areaT2 = (float) (0.5*(a+b)*c);
     cout << "il valore di a è : "<< a <<endl;
     cout << "il valore di b è : "<< b <<endl;
     cout << "il valore di c è : "<< c <<endl;
