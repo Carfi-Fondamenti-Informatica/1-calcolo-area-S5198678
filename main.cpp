@@ -6,14 +6,15 @@ int main() {
 
     cin >> a >> b >> c ;
 
-    triangle = 0,5 * a * b;
+    triangle = (float) 0.5 * (a * b);
     square = a*a;
     rectangle = a*b;
-    trapezoid = 0,5 * (a+b) * c;
-    
+    trapezoid = (float) 0.5 * (a+b) * c;
+
     cout << triangle << endl;
     cout << square << endl;
     cout << rectangle << endl;
     cout << trapezoid << endl;
-    
+
     return 0;
+}
