@@ -2,19 +2,19 @@
 using namespace std;
 int main() {
     float a,b,c;
-    float triangle,square,rectangle,trapezoid;
+    float Triangolo,Quadrato,Rettangolo, Trapezio;
 
     cin >> a >> b >> c ;
 
-    triangle = (float) 0.5 * (a * b);
-    square = a*a;
-    rectangle = a*b;
-    trapezoid = (float) 0.5 * (a+b) * c;
+    Triangolo = (float) 0.5 * (a * b);
+    Quadrato = a*a;
+    Rettangolo = a*b;
+    Trapezio = (float) 0.5 * (a+b) * c;
 
-    cout << triangle << endl;
-    cout << square << endl;
-    cout << rectangle << endl;
-    cout << trapezoid << endl;
+    cout << Triangolo << endl;
+    cout <<  Quadrato << endl;
+    cout << Rettangolo << endl;
+    cout << Trapezio << endl;
 
     return 0;
 }
